@@ -19,6 +19,8 @@ namespace FileSearcherMVVM.ViewModels
         public MainViewModel()
         {
             AppSettingsProvider = AppSettingsProvider.GetInstance();
+            AppSettingsProvider.SearchPath = "";
+            AppSettingsProvider.SearchPattern = "";
             FileSearchProvider = FileSearchProvider.GetInstance();
 
             Files = new ObservableCollection<IFileItem>();
@@ -227,10 +229,14 @@ namespace FileSearcherMVVM.ViewModels
 
         private void ResetSearchInfo()
         {
-            FoundedDirectoryFiles = 0;
-            SearchDirectoryName = new DirectoryInfo(appSettingsProvider.SearchPath).Name;
-            TotalDirectoryFiles = Directory.GetFiles(appSettingsProvider.SearchPath, "", SearchOption.AllDirectories).Length;
-            SearchTime = 0;
+            try
+            {
+                FoundedDirectoryFiles = 0;
+                SearchDirectoryName = new DirectoryInfo(appSettingsProvider.SearchPath).Name;
+                TotalDirectoryFiles = Directory.GetFiles(appSettingsProvider.SearchPath, "", SearchOption.AllDirectories).Length;
+                SearchTime = 0;
+            }
+            catch { }
         }
     }
 }

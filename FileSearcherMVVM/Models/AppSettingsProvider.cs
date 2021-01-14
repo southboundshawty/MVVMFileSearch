@@ -10,7 +10,10 @@ namespace FileSearcherMVVM.Models
 {
     public class AppSettingsProvider : INotifyPropertyChanged
     {
-        private AppSettingsProvider() { }
+        private AppSettingsProvider() {
+            SearchPattern = "";
+            SearchPattern = "";
+        }
 
         private static AppSettingsProvider instance;
 

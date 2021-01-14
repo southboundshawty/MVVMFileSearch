@@ -1,0 +1,6 @@
+C:\Users\steve\Desktop\Visual Studio projects\FileSearcherMVVM\FileSearcherMVVM\bin\Release\netcoreapp3.1\publish\FileSearcherMVVM.exe
+C:\Users\steve\Desktop\Visual Studio projects\FileSearcherMVVM\FileSearcherMVVM\bin\Release\netcoreapp3.1\publish\FileSearcherMVVM.dll
+C:\Users\steve\Desktop\Visual Studio projects\FileSearcherMVVM\FileSearcherMVVM\bin\Release\netcoreapp3.1\publish\FileSearcherMVVM.deps.json
+C:\Users\steve\Desktop\Visual Studio projects\FileSearcherMVVM\FileSearcherMVVM\bin\Release\netcoreapp3.1\publish\FileSearcherMVVM.runtimeconfig.json
+C:\Users\steve\Desktop\Visual Studio projects\FileSearcherMVVM\FileSearcherMVVM\bin\Release\netcoreapp3.1\publish\FileSearcherMVVM.pdb
+C:\Users\steve\Desktop\Visual Studio projects\FileSearcherMVVM\FileSearcherMVVM\bin\Release\netcoreapp3.1\publish\System.Linq.Async.dll
